@@ -17,7 +17,7 @@ const Landing = () => {
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-8 animate-slide-up">
             <div className="space-y-4">
-              <h1 className="text-6xl md:text-8xl font-bold text-gradient-mars">
+              <h1 className="text-6xl md:text-8xl font-bold text-gradient-mars font-space">
                 Mars Habitat Designer
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
@@ -38,7 +38,7 @@ const Landing = () => {
               <Button 
                 variant="glass" 
                 size="lg"
-                onClick={() => navigate('/mission')}
+                onClick={() => navigate('/learn')}
               >
                 Learn More
               </Button>
@@ -58,7 +58,7 @@ const Landing = () => {
       {/* Features Section */}
       <section className="py-24 px-4 relative">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gradient-aurora">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gradient-aurora font-space">
             Three-Stage Mission Design
           </h2>
 
