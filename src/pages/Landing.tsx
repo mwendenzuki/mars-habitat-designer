@@ -38,19 +38,19 @@ const Landing = () => {
               <Button 
                 variant="hero" 
                 size="lg"
-                onClick={() => navigate('/mission')}
+                onClick={() => navigate('/learn')}
                 className="group px-8 py-6 text-lg"
               >
-                Start Your Mission
+                Learning Resources
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
                 variant="hero" 
                 size="lg"
-                onClick={() => navigate('/learn')}
+                onClick={() => navigate('/mission')}
                 className="group px-8 py-6 text-lg"
               >
-                Learning Resources
+                Start Your Mission
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
