@@ -154,10 +154,18 @@ const MissionDesigner = () => {
 
         {/* Navigation */}
         <div className="flex justify-between items-center mt-12 max-w-6xl mx-auto">
-          <Button variant="glass" onClick={handleBack}>
-            <ArrowLeft className="mr-2" />
-            {currentStepIndex === 0 ? "Back to Home" : "Previous"}
-          </Button>
+          <div className="flex gap-3">
+            <Button variant="outline" onClick={() => navigate("/")}>
+              <ArrowLeft className="mr-2" />
+              Back to Home
+            </Button>
+            {currentStepIndex > 0 && (
+              <Button variant="glass" onClick={handleBack}>
+                <ArrowLeft className="mr-2" />
+                Previous Step
+              </Button>
+            )}
+          </div>
 
           {currentStep !== "summary" && (
             <Button onClick={handleNext}>
