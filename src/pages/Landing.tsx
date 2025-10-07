@@ -48,9 +48,10 @@ const Landing = () => {
                 variant="hero" 
                 size="lg"
                 onClick={() => navigate('/learn')}
-                className="px-8 py-6 text-lg"
+                className="group px-8 py-6 text-lg"
               >
                 Learning Resources
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
           </div>
