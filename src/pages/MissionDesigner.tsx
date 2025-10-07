@@ -67,9 +67,17 @@ const MissionDesigner = () => {
   };
 
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-full relative">
+      {/* Background Image */}
+      <div 
+        className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/images/bg-mars.jpg)' }}
+      >
+        <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
+      </div>
+
       {/* Progress Stepper */}
-      <div className="glass-card border-b border-border/50 sticky top-0 z-50 backdrop-blur-xl">
+      <div className="glass-card border-b border-border/50 sticky top-0 z-50 backdrop-blur-xl relative">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between max-w-4xl mx-auto">
             {steps.map((step, index) => (
@@ -109,7 +117,7 @@ const MissionDesigner = () => {
       </div>
 
       {/* Step Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 relative z-10">
         <div className="max-w-6xl mx-auto">
           {currentStep === "surface" && (
             <SurfaceMapping

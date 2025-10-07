@@ -6,8 +6,16 @@ const LearningResources = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen w-full overflow-hidden px-4 py-8">
-      <div className="container mx-auto max-w-6xl">
+    <div className="min-h-screen w-full overflow-hidden px-4 py-8 relative">
+      {/* Background Image */}
+      <div 
+        className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/images/bg-milkyway.jpg)' }}
+      >
+        <div className="absolute inset-0 bg-background/75 backdrop-blur-sm" />
+      </div>
+
+      <div className="container mx-auto max-w-6xl relative z-10">
         {/* Back Button */}
         <Button
           variant="ghost"

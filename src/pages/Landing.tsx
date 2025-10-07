@@ -6,9 +6,17 @@ const Landing = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen w-full overflow-hidden">
+    <div className="min-h-screen w-full overflow-hidden relative">
+      {/* Background Image */}
+      <div 
+        className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/images/bg-landing.jpg)' }}
+      >
+        <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px]" />
+      </div>
+
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-4">
+      <section className="relative min-h-screen flex items-center justify-center px-4 z-10">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse-glow" />
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: '1s' }} />
