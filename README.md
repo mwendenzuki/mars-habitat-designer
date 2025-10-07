@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+# 🪐 Mars Habitat Designer
 
-## Project info
+### NASA Space Apps Challenge 2025 — Team TerraSat
 
-**URL**: https://lovable.dev/projects/0ffa4499-da78-4216-be97-35c92b35f95c
+**Project Link:** [Visit Mars Habitat Designer](https://mars-habitat-designer.netlify.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Overview
 
-**Use Lovable**
+**Mars Habitat Designer** is an interactive web-based tool built for the **NASA Space Apps Challenge 2025** under the category:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0ffa4499-da78-4216-be97-35c92b35f95c) and start prompting.
+> _Your Home in Space: The Habitat Layout Creator_
 
-Changes made via Lovable will be committed automatically to this repo.
+The project enables users to **map, design, and visualize** a complete Mars habitat — from selecting ideal landing coordinates to customizing both exterior structures and interior layouts. It transforms complex space engineering into an intuitive, visual experience powered by **Lovable AI**, which vibe-coded the platform to feel futuristic, cohesive, and deeply user-friendly.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛰️ What It Does
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Users can:
 
-Follow these steps:
+1. **Map landing sites** on the Martian surface to identify ideal coordinates and terrain for their habitat.
+2. **Design the habitat exterior** with adjustable shapes, volumes, and materials.
+3. **Arrange the interior layout**, assigning key functional zones such as sleep, hygiene, recreation, and life support.
+4. View a **fully rendered 3D model** of the final habitat, reflecting all design choices made across stages.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The **Learn More** section expands the educational mission, featuring embedded videos, audio, and downloadable transcripts that explore the real-world science and creativity behind space architecture.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧠 Tools & Technologies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **Frontend:** React, Tailwind CSS, Three.js, Framer Motion
+- **Backend:** Node.js, Express
+- **3D Visualization:** Three.js, Blender assets
+- **AI & Design Support:** Lovable AI (vibe-coded interface & experience design)
+- **Deployment:** Netlify
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 NASA Data & Resources Used
 
-**Use GitHub Codespaces**
+- _Defining the Net Habitable Volume for Long Duration Exploration Missions_
+- _Moon to Mars Architecture Definition Document_
+- _Habitats and Surface Construction Technology and Development Roadmap_
+- _Deep Space Habitability Design Guidelines Based on the NASA NextSTEP Phase 2 Ground Program_
+- _A Tool for Automated Design and Evaluation of Habitat Interior Layouts_
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 💡 Impact
 
-This project is built with:
+**Mars Habitat Designer** bridges **creativity, education, and science**, turning NASA’s deep-space data into a playful, interactive platform that invites users to think like space architects. It helps learners and professionals alike explore how to make human life sustainable—and even comfortable—beyond Earth.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 👩‍🚀 Team
 
-Simply open [Lovable](https://lovable.dev/projects/0ffa4499-da78-4216-be97-35c92b35f95c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Team Name:** TerraSat  
+**Challenge:** _Your Home in Space – The Habitat Layout Creator_  
+**Event:** _NASA Space Apps Challenge 2025_
