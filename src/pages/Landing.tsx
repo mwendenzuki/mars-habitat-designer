@@ -37,18 +37,20 @@ const Landing = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
               <Button 
                 variant="hero" 
+                size="lg"
                 onClick={() => navigate('/mission')}
-                className="group"
+                className="group px-8 py-6 text-lg"
               >
                 Start Your Mission
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
-                variant="glass" 
+                variant="hero" 
                 size="lg"
                 onClick={() => navigate('/learn')}
+                className="px-8 py-6 text-lg"
               >
-                Learn More
+                Learning Resources
               </Button>
             </div>
           </div>
